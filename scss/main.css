@@ -16,7 +16,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #969696;
+  color: #dadada;
   background-image: linear-gradient(174deg, #111111 2%, #111111 46%, #ffffff 46%, #ffffff 100%, #e8e8e8 100%);
   letter-spacing: 0.07em;
 }
@@ -65,7 +65,7 @@ input[type="text"] {
   outline: 0;
   font-size: 1rem;
   padding-right: 1rem;
-  color: #969696;
+  color: #dadada;
 }
 
 input[type="text"]::-webkit-input-placeholder {
@@ -106,7 +106,7 @@ input[type="text"]::placeholder {
   width: 40px;
   height: 40px;
   border-radius: 10px;
-  background: #969696;
+  background: #dadada;
   color: #fff;
   font-size: 2rem;
   text-decoration: none;
@@ -132,8 +132,8 @@ input[type="text"]::placeholder {
 }
 
 .tab li.active {
-  border-bottom: 2px solid #969696;
-  color: #969696;
+  border-bottom: 2px solid #dadada;
+  color: #dadada;
   font-weight: bold;
 }
 
@@ -166,7 +166,7 @@ input[type="text"]::placeholder {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   text-decoration: none;
-  color: #969696;
+  color: #dadada;
   display: block;
   width: 1rem;
   height: 1rem;
@@ -259,7 +259,7 @@ input[type="text"]::placeholder {
   height: 20px;
   width: 20px;
   border-radius: 5px;
-  border: 1px solid #969696;
+  border: 1px solid #dadada;
   pointer-events: none;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
