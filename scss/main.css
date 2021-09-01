@@ -16,8 +16,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #dadada;
-  background-image: linear-gradient(174deg, #111111 2%, #111111 46%, #ffffff 46%, #ffffff 100%, #e8e8e8 100%);
+  color: #4b4b4b;
+  background-image: linear-gradient(174deg, #b0b9b2 2%, #b0b9b2 46%, #ffffff 46%, #ffffff 100%, #e8e8e8 100%);
   letter-spacing: 0.07em;
 }
 
@@ -25,7 +25,7 @@ h1 {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 1.5rem;
-  font-family: "Baloo Tamma 2";
+  font-family: 'Baloo Tamma 2';
   letter-spacing: 0.5rem;
   font-weight: bold;
 }
@@ -59,28 +59,28 @@ h1 {
           box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
 }
 
-input[type="text"] {
+input[type='text'] {
   width: 100%;
   border: 0;
   outline: 0;
   font-size: 1rem;
   padding-right: 1rem;
-  color: #dadada;
+  color: #4b4b4b;
 }
 
-input[type="text"]::-webkit-input-placeholder {
+input[type='text']::-webkit-input-placeholder {
   color: #9f9a91;
 }
 
-input[type="text"]:-ms-input-placeholder {
+input[type='text']:-ms-input-placeholder {
   color: #9f9a91;
 }
 
-input[type="text"]::-ms-input-placeholder {
+input[type='text']::-ms-input-placeholder {
   color: #9f9a91;
 }
 
-input[type="text"]::placeholder {
+input[type='text']::placeholder {
   color: #9f9a91;
 }
 
@@ -106,7 +106,7 @@ input[type="text"]::placeholder {
   width: 40px;
   height: 40px;
   border-radius: 10px;
-  background: #dadada;
+  background: #4b4b4b;
   color: #fff;
   font-size: 2rem;
   text-decoration: none;
@@ -132,8 +132,8 @@ input[type="text"]::placeholder {
 }
 
 .tab li.active {
-  border-bottom: 2px solid #dadada;
-  color: #dadada;
+  border-bottom: 2px solid #4b4b4b;
+  color: #4b4b4b;
   font-weight: bold;
 }
 
@@ -166,7 +166,7 @@ input[type="text"]::placeholder {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   text-decoration: none;
-  color: #dadada;
+  color: #4b4b4b;
   display: block;
   width: 1rem;
   height: 1rem;
@@ -250,7 +250,7 @@ input[type="text"]::placeholder {
 }
 
 .checkbox span::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0.5rem;
   top: 50%;
@@ -259,14 +259,14 @@ input[type="text"]::placeholder {
   height: 20px;
   width: 20px;
   border-radius: 5px;
-  border: 1px solid #dadada;
+  border: 1px solid #4b4b4b;
   pointer-events: none;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
 
 .checkbox span::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 14px;
   top: 27%;
@@ -275,8 +275,8 @@ input[type="text"]::placeholder {
   height: 15px;
   width: 0.5rem;
   border-radius: 1px;
-  border-bottom: 3px solid #111111;
-  border-right: 3px solid #111111;
+  border-bottom: 3px solid #b0b9b2;
+  border-right: 3px solid #b0b9b2;
   pointer-events: none;
   opacity: 0;
   -webkit-transition: 0.3s ease;
